@@ -1,0 +1,16 @@
+{
+    "name": "philippe/php-blsht",
+    "authors": [
+        {
+            "name": "Philippe Traverse",
+            "email": "philippe.traverse@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.0",
+        "symfony/twig-bridge": "^3.1"
+    },
+    "scripts": {
+        "start": "php -S 0.0.0.0:8080"
+    }
+}

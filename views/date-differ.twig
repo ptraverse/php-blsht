@@ -2,8 +2,18 @@
 
 {% block content %}
 
+    <form action="/dateDifferResult" method="POST">
+    	<input id='y1' name='y1' placeholder='y1' type='number' min='1900' max='2020'><br />
+    	<input id='m1' name='m1' placeholder='m1' type='number' min='1' max='12'><br />
+    	<input id='d1' name='d1' placeholder='d1' type='number' min='1' max='31'><br />
+    	<br />
+		<input id='y2' name='y2' placeholder='y2' type='number' min='1900' max='2020'><br />
+    	<input id='m2' name='m2' placeholder='m2' type='number' min='1' max='12'><br />
+    	<input id='d2' name='d2' placeholder='d2' type='number' min='1' max='31'><br />
+    	<br />
+    	<button type="submit">YES</button>
+    </form>
 
-    {% form %}
 
 
 {% endblock %}

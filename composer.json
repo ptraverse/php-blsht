@@ -8,9 +8,15 @@
     ],
     "require": {
         "silex/silex": "^2.0",
-        "symfony/twig-bridge": "^3.1"
+        "symfony/twig-bridge": "^3.1",
+        "phpunit/phpunit": "^4.8",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "classmap": ["src/"]
     },
     "scripts": {
-        "start": "php -S 0.0.0.0:8080"
+        "start": "php -S 0.0.0.0:8080",
+        "test": "vendor/bin/phpunit tests"
     }
 }
